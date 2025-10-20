@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# SQL Server Management Studio Version 21
+VisualStudioVersion = 17.14.36408.4 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "db-icalidad25", "db-icalidad25.ssmssqlproj", "{A1BD5EB6-2311-D4ED-DA09-CF34587B29BF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Default|Default = Default|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A1BD5EB6-2311-D4ED-DA09-CF34587B29BF}.Default|Default.ActiveCfg = Default
+		{77DB161C-3C65-4D70-B508-438378FCA36A}.Default|Default.ActiveCfg = Default
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8DCE4D2A-8231-4424-B13A-B873A1044D72}
+	EndGlobalSection
+EndGlobal
