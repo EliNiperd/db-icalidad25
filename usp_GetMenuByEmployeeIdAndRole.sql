@@ -14,7 +14,7 @@ GO
 -- Descripción: Obtiene el menú dinámico para un empleado y un rol específico.
 --              Permite filtrar por un IdMenuPadre para submenús.
 -- =============================================
-CREATE PROCEDURE [dbo].[usp_GetMenuByEmployeeIdAndRole] (
+ALTER PROCEDURE [dbo].[usp_GetMenuByEmployeeIdAndRole] (
     @p_IdEmpleado INT,
     @p_IdRolPrincipal INT, -- Se pasa el rol principal del empleado
     @p_ParentMenuId INT = NULL -- NULL para obtener menús de nivel superior
@@ -22,10 +22,7 @@ CREATE PROCEDURE [dbo].[usp_GetMenuByEmployeeIdAndRole] (
 AS
 BEGIN
     SET NOCOUNT ON;
-    -- usp_GetMenuByEmployeeIdAndRole 92, 1, 149
-
-    INSERT INTO Sis_TPrueba(Texto, Entero)
-    VALUES(@p_IdEmpleado, @p_IdRolPrincipal)
+    -- usp_GetMenuByEmployeeIdAndRole 92, 7, 149
 
     -- Declarar constantes para mayor claridad
     DECLARE @ESTATUS_ACTIVO INT = 1;
