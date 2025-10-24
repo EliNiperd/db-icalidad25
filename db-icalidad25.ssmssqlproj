@@ -2,10 +2,74 @@
 <SqlWorkbenchSqlProject xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="db-icalidad25">
   <Items>
     <LogicalFolder Name="Conexiones" Type="2" Sorted="true">
-      <Items />
+      <Items>
+        <ConnectionNode Name="LAPTOP-VT30B5D1:sa">
+          <Created>2025-10-22T17:46:05.0381508-06:00</Created>
+          <Type>SQL</Type>
+          <Server>LAPTOP-VT30B5D1</Server>
+          <UserName>sa</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB>iCalidadCCMSLP22</InitialDB>
+          <LoginTimeout>30</LoginTimeout>
+          <TrustServerCertificate>False</TrustServerCertificate>
+          <HostNameInServerCertificate />
+          <EncryptionOption>False</EncryptionOption>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Consulta</ApplicationName>
+        </ConnectionNode>
+      </Items>
     </LogicalFolder>
     <LogicalFolder Name="Consultas" Type="0" Sorted="true">
       <Items>
+        <FileNode Name="Operacines_generales.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:LAPTOP-VT30B5D1:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>LAPTOP-VT30B5D1</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>Operacines_generales.sql</FullPath>
+        </FileNode>
+        <FileNode Name="PD_Gen_TDepartamento.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:LAPTOP-VT30B5D1:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>LAPTOP-VT30B5D1</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>PD_Gen_TDepartamento.sql</FullPath>
+        </FileNode>
+        <FileNode Name="PD_Gen_TGerencia.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:LAPTOP-VT30B5D1:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>LAPTOP-VT30B5D1</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>PD_Gen_TGerencia.sql</FullPath>
+        </FileNode>
+        <FileNode Name="PF_Gen_TDepartamento.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:LAPTOP-VT30B5D1:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>LAPTOP-VT30B5D1</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>PF_Gen_TDepartamento.sql</FullPath>
+        </FileNode>
+        <FileNode Name="PF_Gen_TEmpleado.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:LAPTOP-VT30B5D1:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>LAPTOP-VT30B5D1</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>PF_Gen_TEmpleado.sql</FullPath>
+        </FileNode>
+        <FileNode Name="PF_Gen_TPuesto.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:LAPTOP-VT30B5D1:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>LAPTOP-VT30B5D1</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>PF_Gen_TPuesto.sql</FullPath>
+        </FileNode>
+        <FileNode Name="PI_Gen_TEmpleado.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:LAPTOP-VT30B5D1:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>LAPTOP-VT30B5D1</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>PI_Gen_TEmpleado.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQLQuery1.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:LAPTOP-VT30B5D1:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>LAPTOP-VT30B5D1</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>SQLQuery1.sql</FullPath>
+        </FileNode>
         <FileNode Name="update_menu_icons.sql">
           <AssociatedConnectionMoniker />
           <AssociatedConnSrvName />

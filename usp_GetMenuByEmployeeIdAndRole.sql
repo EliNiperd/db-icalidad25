@@ -22,7 +22,7 @@ ALTER PROCEDURE [dbo].[usp_GetMenuByEmployeeIdAndRole] (
 AS
 BEGIN
     SET NOCOUNT ON;
-    -- usp_GetMenuByEmployeeIdAndRole 92, 7, 149
+    -- usp_GetMenuByEmployeeIdAndRole 92, 1, 149
 
     -- Declarar constantes para mayor claridad
     DECLARE @ESTATUS_ACTIVO INT = 1;

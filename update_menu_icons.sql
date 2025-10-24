@@ -85,6 +85,12 @@ UPDATE Gen_TMenu
 SET Icono = 'CheckSquare'
 WHERE Menu = 'Solicitudes';
 
+-- Actualizar URL Departamentos
+UPDATE Gen_TMenu
+SET URL = '/icalidad/departamento'
+WHERE IdMenu = 4
+    
+
 -- Opcional: Limpiar iconos para IdEstatusMenu = 1 o donde no se desee icono
 -- UPDATE Gen_TMenu
 -- SET Icono = NULL -- O Icono = ''
