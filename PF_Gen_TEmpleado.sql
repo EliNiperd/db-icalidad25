@@ -61,10 +61,10 @@ BEGIN
     ORDER BY
         CASE WHEN @p_SortBy = 'NombreEmpleado' AND @p_SortOrder = 'ASC' THEN NombreEmpleado END ASC,
         CASE WHEN @p_SortBy = 'NombreEmpleado' AND @p_SortOrder = 'DESC' THEN NombreEmpleado END DESC,
-        --CASE WHEN @p_SortBy = 'ClaveDepartamento' AND @p_SortOrder = 'ASC' THEN ClaveDepartamento END ASC,
-        --CASE WHEN @p_SortBy = 'ClaveDepartamento' AND @p_SortOrder = 'DESC' THEN ClaveDepartamento END DESC,
-        --CASE WHEN @p_SortBy = 'NombreGerencia' AND @p_SortOrder = 'ASC' THEN NombreGerencia END ASC,
-        --CASE WHEN @p_SortBy = 'NombreGerencia' AND @p_SortOrder = 'DESC' THEN NombreGerencia END DESC,
+        CASE WHEN @p_SortBy = 'UserName' AND @p_SortOrder = 'ASC' THEN UserName END ASC,
+        CASE WHEN @p_SortBy = 'UserName' AND @p_SortOrder = 'DESC' THEN UserName END DESC,
+        CASE WHEN @p_SortBy = 'Correo' AND @p_SortOrder = 'ASC' THEN Correo END ASC,
+        CASE WHEN @p_SortBy = 'Correo' AND @p_SortOrder = 'DESC' THEN Correo END DESC,
         CASE WHEN @p_SortBy = 'IdEstatusEmpleado' AND @p_SortOrder = 'ASC' THEN IdEstatusEmpleado END ASC,
         CASE WHEN @p_SortBy = 'IdEstatusEmpleado' AND @p_SortOrder = 'DESC' THEN IdEstatusEmpleado END DESC
     OFFSET (@p_PageNumber - 1) * @p_PageSize ROWS

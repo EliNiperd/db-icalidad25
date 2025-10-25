@@ -22,6 +22,12 @@
     </LogicalFolder>
     <LogicalFolder Name="Consultas" Type="0" Sorted="true">
       <Items>
+        <FileNode Name="Empleados-Puestos-Horial.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:LAPTOP-VT30B5D1:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>LAPTOP-VT30B5D1</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>Empleados-Puestos-Horial.sql</FullPath>
+        </FileNode>
         <FileNode Name="Operacines_generales.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:LAPTOP-VT30B5D1:False:sa</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>LAPTOP-VT30B5D1</AssociatedConnSrvName>
@@ -52,11 +58,35 @@
           <AssociatedConnUserName>sa</AssociatedConnUserName>
           <FullPath>PF_Gen_TEmpleado.sql</FullPath>
         </FileNode>
+        <FileNode Name="PF_Gen_TEmpleado_ConPuestos.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:LAPTOP-VT30B5D1:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>LAPTOP-VT30B5D1</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>PF_Gen_TEmpleado_ConPuestos.sql</FullPath>
+        </FileNode>
+        <FileNode Name="PF_Gen_TNormativa.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:LAPTOP-VT30B5D1:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>LAPTOP-VT30B5D1</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>PF_Gen_TNormativa.sql</FullPath>
+        </FileNode>
         <FileNode Name="PF_Gen_TPuesto.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:LAPTOP-VT30B5D1:False:sa</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>LAPTOP-VT30B5D1</AssociatedConnSrvName>
           <AssociatedConnUserName>sa</AssociatedConnUserName>
           <FullPath>PF_Gen_TPuesto.sql</FullPath>
+        </FileNode>
+        <FileNode Name="PF_Gen_TRequisito.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:LAPTOP-VT30B5D1:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>LAPTOP-VT30B5D1</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>PF_Gen_TRequisito.sql</FullPath>
+        </FileNode>
+        <FileNode Name="PFK_Gen_TNormativa.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:LAPTOP-VT30B5D1:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>LAPTOP-VT30B5D1</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>PFK_Gen_TNormativa.sql</FullPath>
         </FileNode>
         <FileNode Name="PI_Gen_TEmpleado.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:LAPTOP-VT30B5D1:False:sa</AssociatedConnectionMoniker>
@@ -64,11 +94,41 @@
           <AssociatedConnUserName>sa</AssociatedConnUserName>
           <FullPath>PI_Gen_TEmpleado.sql</FullPath>
         </FileNode>
+        <FileNode Name="PI_Gen_TNormativa.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:LAPTOP-VT30B5D1:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>LAPTOP-VT30B5D1</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>PI_Gen_TNormativa.sql</FullPath>
+        </FileNode>
+        <FileNode Name="PU_Gen_TEmpleado.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:LAPTOP-VT30B5D1:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>LAPTOP-VT30B5D1</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>PU_Gen_TEmpleado.sql</FullPath>
+        </FileNode>
+        <FileNode Name="PU_Gen_TNormativa.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:LAPTOP-VT30B5D1:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>LAPTOP-VT30B5D1</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>PU_Gen_TNormativa.sql</FullPath>
+        </FileNode>
         <FileNode Name="SQLQuery1.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:LAPTOP-VT30B5D1:False:sa</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>LAPTOP-VT30B5D1</AssociatedConnSrvName>
           <AssociatedConnUserName>sa</AssociatedConnUserName>
           <FullPath>SQLQuery1.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQLQuery2.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:LAPTOP-VT30B5D1:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>LAPTOP-VT30B5D1</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>SQLQuery2.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQLQuery4.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:LAPTOP-VT30B5D1:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>LAPTOP-VT30B5D1</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>SQLQuery4.sql</FullPath>
         </FileNode>
         <FileNode Name="update_menu_icons.sql">
           <AssociatedConnectionMoniker />

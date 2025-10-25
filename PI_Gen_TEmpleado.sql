@@ -23,6 +23,7 @@ ALTER PROCEDURE [dbo].[PI_Gen_TEmpleado]
 AS
 BEGIN
 	SET NOCOUNT ON;
+	-- PI_Gen_TEmpleado 'Elí Rodríguez', 'erodriguez', 'prueba1', 'eli.rodriguez@gmail.com', 92
 -- PI_Gen_TEmpleado 'z', 'z', 'z', NULL, NULL, '<ParametroControl><IdEmpleado>1</IdEmpleado></ParametroControl>'
     DECLARE @v_IdEmpleado INT
 		, @v_XML XML
